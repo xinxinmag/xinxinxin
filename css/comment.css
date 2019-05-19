@@ -1,0 +1,58 @@
+@import "base.css";
+.title{
+    height:0.3rem;
+    width:3.75rem;
+    background:#FFFFFF;
+    display:flex;
+    padding-top:0.10rem;
+}
+.title >span{
+    font-size:0.16rem;
+    color:#4ebbfe;
+    margin-left:0.2rem;
+    position:relative;
+}
+.title >span::before{
+    content:'';
+    width:0.10rem;
+    height:0.10rem;
+    background:#4ebbfe;
+    position:absolute;
+    left:-0.11rem;
+    top:0.06rem;
+    float:left;
+}
+.title >span>a{
+    color:#d4c3ff;
+}
+.title >li{
+    font-size:0.16rem;
+    color:#4ebbfe;
+    margin-left:2.0rem;
+}
+.comment{
+    width:3.75rem;
+    height:0.5rem;
+    background:#FFFFFF;
+    display:flex;
+    padding-top:0.1rem;
+}
+.comment .avter{
+    width:0.64rem;
+    height:0.44rem;
+    background:#FFFFFF;
+    display:flex;
+    justify-content:center;
+}
+.comment .avter >img{
+    width:0.34rem;
+    height:0.44rem;
+}
+.comment .username{
+    color:#d4c3ff;
+    font-size:0.16rem;
+    width:0.48rem;
+    height:0.5rem;
+    display:flex;
+    justify-content:center;
+}

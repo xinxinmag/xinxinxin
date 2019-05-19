@@ -1,0 +1,54 @@
+body,h1,h2,h3,h4,h5,li,ul,a,p{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+*{
+    -webkit-tap-highlight-color:transparent;
+    -webkit-appearance:none;
+    -webkit-text-size-adjust: 100%;
+}
+body{
+    background-color:#e9eaed;
+}
+a{
+    color:#FFFFFF;
+    text-decoration:none;
+}
+img{
+    width:100%;
+    height:100%;
+    display:block;
+}
+/* 默认样式*/
+html{
+    font-size:100px;
+}
+body{
+    font-size:16px;
+}
+@media screen and(min-width:320px){
+    html{
+        font-size:42.66666px;
+    }
+}
+@media screen and(min-width:360px){
+    html{
+        font-size:48px;
+    }
+}
+@media screen and(min-width:375px){
+    html{
+        font-size:50px;
+    }
+}
+@media screen and(min-width:412px){
+    html{
+        font-size:54.933333px;
+    }
+}
+@media screen and(min-width:414px){
+    html{
+        font-size:55.2px;
+    }
+}
